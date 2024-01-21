@@ -17,7 +17,7 @@ try:
     with open(input_file, 'r') as f:
         markdown_content = f.read()
 except FileNotFoundError:
-    print(f"Missing README.md", file=sys.stderr)
+    print(f"Missing {input_file}", file=sys.stderr)
     sys.exit(1)
 
 # Convert the Markdown content to HTML
