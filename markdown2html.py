@@ -1,7 +1,11 @@
 #!/usr/bin/python3
+"""
+Markdown script using python.
+"""
 
 import sys
-import markdown
+import os
+import markdown2
 
 # Check the number of arguments
 if len(sys.argv) < 3:
