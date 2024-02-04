@@ -155,7 +155,7 @@ a:active {
 }
 
 .button-primary {
-  color: var(--color-white0);
+  color: var(--color-white);
   background: var(--color-primary);
 }
 
