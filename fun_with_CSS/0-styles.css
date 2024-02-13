@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  width: 292px;
+  height: 425px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 15px;
+  background-color: #f7f7f7;
+}
+
+span.icon {
+  display: block;
+  width: 290px;
+  height: 375px;
+}
+
+span.icon.i-html {
+  background-image: url("0-sprite.png");
+  background-size: cover;
+}
+
+span.icon.i-css {
+  background-image: url("0-sprite.png");
+  background-size: cover;
+  background-position: center;
+}
+
+span.icon.i-js {
+  background-image: url("0-sprite.png");
+  background-size: cover;
+  background-position: right;
+}\
